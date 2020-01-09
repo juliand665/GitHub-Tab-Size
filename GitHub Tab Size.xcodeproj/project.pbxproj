@@ -416,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size Extension/GitHub_Tab_Size_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size Extension/Info.plist";
@@ -436,7 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size Extension/GitHub_Tab_Size_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size Extension/Info.plist";
@@ -458,8 +462,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size/GitHub_Tab_Size.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size/Info.plist";
@@ -479,8 +485,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size/GitHub_Tab_Size.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size/Info.plist";
