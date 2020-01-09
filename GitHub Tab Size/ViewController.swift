@@ -7,7 +7,9 @@ final class ViewController: NSViewController {
 			withIdentifier: "juliand665.GitHub-Tab-Size-Extension"
 		) { error in
 			if let error = error {
-				NSApp.presentError(error)
+				DispatchQueue.main.async {
+					NSApp.presentError(error)
+				}
 			}
 		}
 	}

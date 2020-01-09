@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,10 @@
 		B9817FDA23C58D3200F8F05B /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9817FD923C58D3200F8F05B /* SafariExtensionViewController.swift */; };
 		B9817FDD23C58D3200F8F05B /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9817FDB23C58D3200F8F05B /* SafariExtensionViewController.xib */; };
 		B9817FF123C58E7500F8F05B /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = B9817FF023C58E7400F8F05B /* style.css */; };
+		B9817FF323C60B0300F8F05B /* ToolbarIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */; };
+		B9817FF623C6113100F8F05B /* UserDefault in Frameworks */ = {isa = PBXBuildFile; productRef = B9817FF523C6113100F8F05B /* UserDefault */; };
+		B9817FF923C6118500F8F05B /* HandyOperators in Frameworks */ = {isa = PBXBuildFile; productRef = B9817FF823C6118500F8F05B /* HandyOperators */; };
+		B9817FFB23C61D8200F8F05B /* update.js in Resources */ = {isa = PBXBuildFile; fileRef = B9817FFA23C61D8200F8F05B /* update.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,8 @@
 		B9817FDE23C58D3200F8F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9817FE323C58D3200F8F05B /* GitHub_Tab_Size_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHub_Tab_Size_Extension.entitlements; sourceTree = "<group>"; };
 		B9817FF023C58E7400F8F05B /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ToolbarIcon.pdf; path = Assets/ToolbarIcon.pdf; sourceTree = SOURCE_ROOT; };
+		B9817FFA23C61D8200F8F05B /* update.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = update.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9817FF923C6118500F8F05B /* HandyOperators in Frameworks */,
 				B9817FD523C58D3200F8F05B /* Cocoa.framework in Frameworks */,
+				B9817FF623C6113100F8F05B /* UserDefault in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +137,8 @@
 				B9817FDB23C58D3200F8F05B /* SafariExtensionViewController.xib */,
 				B9817FDE23C58D3200F8F05B /* Info.plist */,
 				B9817FF023C58E7400F8F05B /* style.css */,
+				B9817FFA23C61D8200F8F05B /* update.js */,
+				B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */,
 				B9817FE323C58D3200F8F05B /* GitHub_Tab_Size_Extension.entitlements */,
 			);
 			path = "GitHub Tab Size Extension";
@@ -171,6 +181,10 @@
 			dependencies = (
 			);
 			name = "GitHub Tab Size Extension";
+			packageProductDependencies = (
+				B9817FF523C6113100F8F05B /* UserDefault */,
+				B9817FF823C6118500F8F05B /* HandyOperators */,
+			);
 			productName = "GitHub Tab Size Extension";
 			productReference = B9817FCF23C58D3200F8F05B /* GitHub Tab Size Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -203,6 +217,8 @@
 			);
 			mainGroup = B9817FB323C58D2D00F8F05B;
 			packageReferences = (
+				B9817FF423C6113100F8F05B /* XCRemoteSwiftPackageReference "UserDefault" */,
+				B9817FF723C6118500F8F05B /* XCRemoteSwiftPackageReference "HandyOperators" */,
 			);
 			productRefGroup = B9817FBD23C58D2D00F8F05B /* Products */;
 			projectDirPath = "";
@@ -230,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9817FDD23C58D3200F8F05B /* SafariExtensionViewController.xib in Resources */,
+				B9817FF323C60B0300F8F05B /* ToolbarIcon.pdf in Resources */,
 				B9817FF123C58E7500F8F05B /* style.css in Resources */,
+				B9817FFB23C61D8200F8F05B /* update.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +529,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9817FF423C6113100F8F05B /* XCRemoteSwiftPackageReference "UserDefault" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/juliand665/UserDefault.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B9817FF723C6118500F8F05B /* XCRemoteSwiftPackageReference "HandyOperators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/juliand665/HandyOperators.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9817FF523C6113100F8F05B /* UserDefault */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9817FF423C6113100F8F05B /* XCRemoteSwiftPackageReference "UserDefault" */;
+			productName = UserDefault;
+		};
+		B9817FF823C6118500F8F05B /* HandyOperators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9817FF723C6118500F8F05B /* XCRemoteSwiftPackageReference "HandyOperators" */;
+			productName = HandyOperators;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9817FB423C58D2D00F8F05B /* Project object */;
 }
