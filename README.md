@@ -1,5 +1,5 @@
 <p align="center">
-	<img width=192px src="Assets/Icon.png" /><br><br>
+	<img width=192px src="GitHub/Icon.png" /><br><br>
 	<a href="./LICENSE">
 		<img alt="MIT licensed" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 	</a>
