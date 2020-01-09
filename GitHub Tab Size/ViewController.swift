@@ -22,3 +22,7 @@ final class Window: NSWindow {
 		isMovableByWindowBackground = true
 	}
 }
+
+final class PassThroughImageView: NSImageView {
+	override var mouseDownCanMoveWindow: Bool { true }
+}
