@@ -13,7 +13,6 @@
 
 [Video Demo](https://youtu.be/LI-oowoQmLQ)
 
-![tab size 4](GitHub/size 4.png)
-
-![tab size 2](GitHub/size 2.png)
+<img src="GitHub/size 4.png" alt="screenshot with tab size 4" />
+<img src="GitHub/size 2.png" alt="screenshot with tab size 2" />
 
