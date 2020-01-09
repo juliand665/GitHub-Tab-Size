@@ -418,7 +418,7 @@
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size Extension/GitHub_Tab_Size_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size Extension/Info.plist";
@@ -427,7 +427,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "juliand665.GitHub-Tab-Size-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliand665.GitHub-Tab-Size.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,7 +440,7 @@
 				CODE_SIGN_ENTITLEMENTS = "GitHub Tab Size Extension/GitHub_Tab_Size_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size Extension/Info.plist";
@@ -449,7 +449,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "juliand665.GitHub-Tab-Size-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliand665.GitHub-Tab-Size.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +465,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size/Info.plist";
@@ -473,8 +473,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "juliand665.GitHub-Tab-Size";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliand665.GitHub-Tab-Size";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -488,7 +489,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = V2EPDFA9PV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "GitHub Tab Size/Info.plist";
@@ -496,8 +497,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "juliand665.GitHub-Tab-Size";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.juliand665.GitHub-Tab-Size";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
