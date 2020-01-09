@@ -9,3 +9,11 @@
 
 ###### Change how GitHub displays tabs for you.
 
+## Screenshots
+
+[Video Demo](https://youtu.be/LI-oowoQmLQ)
+
+![tab size 4](GitHub/size 4.png)
+
+![tab size 2](GitHub/size 2.png)
+
