@@ -17,7 +17,6 @@
 		B9817FD823C58D3200F8F05B /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9817FD723C58D3200F8F05B /* SafariExtensionHandler.swift */; };
 		B9817FDA23C58D3200F8F05B /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9817FD923C58D3200F8F05B /* SafariExtensionViewController.swift */; };
 		B9817FDD23C58D3200F8F05B /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9817FDB23C58D3200F8F05B /* SafariExtensionViewController.xib */; };
-		B9817FF123C58E7500F8F05B /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = B9817FF023C58E7400F8F05B /* style.css */; };
 		B9817FF323C60B0300F8F05B /* ToolbarIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */; };
 		B9817FF623C6113100F8F05B /* UserDefault in Frameworks */ = {isa = PBXBuildFile; productRef = B9817FF523C6113100F8F05B /* UserDefault */; };
 		B9817FF923C6118500F8F05B /* HandyOperators in Frameworks */ = {isa = PBXBuildFile; productRef = B9817FF823C6118500F8F05B /* HandyOperators */; };
@@ -63,7 +62,6 @@
 		B9817FDC23C58D3200F8F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		B9817FDE23C58D3200F8F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9817FE323C58D3200F8F05B /* GitHub_Tab_Size_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHub_Tab_Size_Extension.entitlements; sourceTree = "<group>"; };
-		B9817FF023C58E7400F8F05B /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ToolbarIcon.pdf; path = Assets/ToolbarIcon.pdf; sourceTree = SOURCE_ROOT; };
 		B9817FFA23C61D8200F8F05B /* update.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = update.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +134,6 @@
 				B9817FD923C58D3200F8F05B /* SafariExtensionViewController.swift */,
 				B9817FDB23C58D3200F8F05B /* SafariExtensionViewController.xib */,
 				B9817FDE23C58D3200F8F05B /* Info.plist */,
-				B9817FF023C58E7400F8F05B /* style.css */,
 				B9817FFA23C61D8200F8F05B /* update.js */,
 				B9817FF223C60B0300F8F05B /* ToolbarIcon.pdf */,
 				B9817FE323C58D3200F8F05B /* GitHub_Tab_Size_Extension.entitlements */,
@@ -247,7 +244,6 @@
 			files = (
 				B9817FDD23C58D3200F8F05B /* SafariExtensionViewController.xib in Resources */,
 				B9817FF323C60B0300F8F05B /* ToolbarIcon.pdf in Resources */,
-				B9817FF123C58E7500F8F05B /* style.css in Resources */,
 				B9817FFB23C61D8200F8F05B /* update.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,12 +8,10 @@ table.diff-table,
 .markdown-body pre,
 body > pre {}
 `;
-// contents changed dynamically
+// rule style changed dynamically
 
 let rule;
 function updateTabSize(tabSize) {
-	console.log('updating tab size to ' + tabSize);
-	document.body.append('tab size updated to ' + tabSize);
 	if (rule == undefined) {
 		let styleElement = document.createElement('style');
 		document.head.appendChild(styleElement);
@@ -27,7 +25,6 @@ function updateTabSize(tabSize) {
 }
 
 function handleMessage(event) {
-	console.log(event.name);
 	switch (event.name) {
 		case 'update tab size':
 			updateTabSize(event.message.tabSize);
@@ -41,7 +38,6 @@ function handleMessage(event) {
 function setUp() {
 	safari.self.addEventListener('message', handleMessage);
 	safari.extension.dispatchMessage('ready');
-	console.log('set up');
 }
 
 if (document.body == null) {
