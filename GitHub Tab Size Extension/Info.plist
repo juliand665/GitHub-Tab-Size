@@ -28,7 +28,7 @@
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
-		<key>SFSafariScript</key>
+		<key>SFSafariContentScript</key>
 		<array>
 			<dict>
 				<key>Script</key>
