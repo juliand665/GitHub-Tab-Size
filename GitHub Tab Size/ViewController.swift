@@ -4,7 +4,7 @@ import SafariServices.SFSafariApplication
 final class ViewController: NSViewController {
 	@IBAction func openSafariExtensionPreferences(_ sender: Any?) {
 		SFSafariApplication.showPreferencesForExtension(
-			withIdentifier: "juliand665.GitHub-Tab-Size-Extension"
+			withIdentifier: "com.juliand665.GitHub-Tab-Size.Extension"
 		) { error in
 			if let error = error {
 				DispatchQueue.main.async {
