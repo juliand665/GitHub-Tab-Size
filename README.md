@@ -19,3 +19,7 @@
 <img src="GitHub/size 4.png" alt="screenshot with tab size 4" />
 <img src="GitHub/size 2.png" alt="screenshot with tab size 2" />
 
+## Thanks
+
+Inspired by (and some CSS taken from) Sindre Sorhus's [chrome extension](https://github.com/sindresorhus/tab-size-on-github).
+
