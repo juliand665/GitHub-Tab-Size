@@ -3,6 +3,9 @@
 	<a href="./LICENSE">
 		<img alt="MIT licensed" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 	</a>
+    <a href="https://apps.apple.com/app/id1494353585">
+        <img alt="App Store" src="https://img.shields.io/itunes/v/1494353585" />
+    </a>
 </p>
 
 # GitHub Tab Size
